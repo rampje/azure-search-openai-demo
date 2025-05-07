@@ -24,16 +24,10 @@ If the question is not in English, translate the question to English before gene
 If you cannot generate a search query, return just the number 0.
 
 user:
-How did crypto do last year?
+What did Stanley Rose research?
 
 assistant:
-Summarize Cryptocurrency Market Dynamics from last year
-
-user:
-What are my health plans?
-
-assistant:
-Show available health plans
+Summarize Stanley Rose's genealogical research in the Tennessee Archives
 
 {% for message in past_messages %}
 {{ message["role"] }}:
